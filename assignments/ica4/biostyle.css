@@ -1,0 +1,39 @@
+/* general page styles for biography */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  color: hotpink;
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 10px dotted purple;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: italic;
+}
+
+.job-title {
+  color: #999999;
+  font-weight: bold;
+}
+ul {
+    padding: 2em;
+    border: solid purple;
+    background-color: #eeeeee
+}
+a:link,
+a:visited {
+    color: #fb6542;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
