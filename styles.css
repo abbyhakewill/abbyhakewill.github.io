@@ -42,6 +42,7 @@ img {
 a:link,
 a:hover {
     color: white;
+    text-decoration: none;
 }
 a:visited {
     color: rgba(255, 139, 71, 100);
