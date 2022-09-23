@@ -23,11 +23,12 @@ h2 {
     font-family: "DM Sans", sans-serif;
 }
 
-/* paragraph styling
+/* paragraph styling*/
 p {
-    p.dotted {border-style: dotted;}
+    padding: 2em;
+    border: rgba(255, 139, 71, 100);
+    background-color: rgba(250, 196, 165, 98);
 }
-*/
 
 /* profile img styling
 img {
