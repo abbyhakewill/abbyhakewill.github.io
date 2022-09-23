@@ -47,6 +47,8 @@ a:visited {
 
 article {
     background: url(img/wave.png) no-repeat left top;
+    border-top: 1mm solid rgba(250, 196, 165, 98);
+    border-bottom: 1mm solid rgba(250, 196, 165, 98);
 }
 /*
 a:default{
