@@ -1,6 +1,6 @@
 /* general index page styling */
 body {
-    background-color: rgba(28, 173, 173, 68);
+    background-color: rgba(189, 255, 255, 100);
     color: #333;
     font-family: "Raleway", sans-serif;
     padding: 1em;
@@ -9,7 +9,7 @@ body {
 
 /* h1 styling */
 h1 {
-    color: rgba(189, 255, 255, 100);
+    color: rgba(28, 173, 173, 68);
     font-size: 2em;
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
@@ -33,7 +33,7 @@ p {
 img {
   }
   */
-  
+
 /* link styling */
 a:link,
 a:visited {
@@ -43,6 +43,9 @@ a:hover {
     color: rgba(250, 196, 165, 98);
     text-decoration: none;
 }
+
+/*
 a:default{
     color: rgba(186, 169, 159, 73)
 }
+*/
