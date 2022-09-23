@@ -1,15 +1,15 @@
 /* general index page styling */
 body {
+    background-image: url("img/wave.png") no-repeat left top;
+    background-color: rgba(189, 255, 255, 100);
     border-top: 2mm dotted rgba(28, 173, 173, 68);
     border-bottom: 2mm dotted rgba(28, 173, 173, 68);
-    background: url("img/wave.png") no-repeat left top;
-    background-color: rgba(189, 255, 255, 100);
     color: #333;
     font-family: "Raleway", sans-serif;
     padding: 1em;
     margin: 0;
   }
-  
+
 /* h1 styling */
 h1 {
     color: rgba(28, 173, 173, 68);
