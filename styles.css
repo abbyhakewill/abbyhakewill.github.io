@@ -37,14 +37,17 @@ img {
 
 /* link styling */
 a:link,
-a:visited {
+a:hover {
     color: white;
 }
-a:hover {
+a:visited {
     color: rgba(250, 196, 165, 98);
     text-decoration: none;
 }
 
+article {
+    background: url(img/wave.png) no-repeat left top;
+}
 /*
 a:default{
     color: rgba(186, 169, 159, 73)
