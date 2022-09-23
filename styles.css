@@ -1,6 +1,6 @@
 /* general index page styling */
 body {
-    background-image: url(img/wave.png) no-repeat left top;
+    background-image: url(img/wave.png) no-repeat right top;
     border-top: 2mm dotted rgba(28, 173, 173, 68);
     border-bottom: 2mm dotted rgba(28, 173, 173, 68);
     background-color: rgba(189, 255, 255, 100);
