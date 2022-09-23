@@ -48,7 +48,7 @@ a:visited {
     text-decoration: none;
 }
 a:link {
-    padding: 2em;
+    padding: 1em;
     border: solid rgba(255, 139, 71, 100);
     background-color: rgba(250, 196, 165, 98);
 }
