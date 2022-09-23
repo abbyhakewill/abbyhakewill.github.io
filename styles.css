@@ -29,13 +29,11 @@ p {
 }
 */
 
-/* profile img styling */
+/* profile img styling
 img {
-    border-radius: 8px;
-    max-height: 50%;
-    max-width: 50%;
   }
-
+  */
+  
 /* link styling */
 a:link,
 a:visited {
