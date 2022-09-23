@@ -26,7 +26,7 @@ h2 {
 /* paragraph styling*/
 p {
     padding: 2em;
-    border: rgba(255, 139, 71, 100);
+    border: solid rgba(255, 139, 71, 100);
     background-color: rgba(250, 196, 165, 98);
 }
 
