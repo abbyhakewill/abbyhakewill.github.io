@@ -30,15 +30,15 @@ p {
     background-color: rgba(250, 196, 165, 98);
 }
 
-/* profile img styling
+/* profile img styling */
 img {
-  }
-  */
+  border-radius: 8px;
+}
 
 /* link styling */
 a:link,
 a:visited {
-    color: rgba(255, 139, 71, 100);
+    color: white);
 }
 a:hover {
     color: rgba(250, 196, 165, 98);
