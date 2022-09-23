@@ -38,7 +38,7 @@ img {
 /* link styling */
 a:link,
 a:visited {
-    color: white);
+    color: white;
 }
 a:hover {
     color: rgba(250, 196, 165, 98);
