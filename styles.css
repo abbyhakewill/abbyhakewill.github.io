@@ -1,5 +1,8 @@
 /* general index page styling */
 body {
+    background: url(img/wave.png) no-repeat left top;
+    border-top: 1mm solid rgba(250, 196, 165, 98);
+    border-bottom: 1mm solid rgba(250, 196, 165, 98);
     background-color: rgba(189, 255, 255, 100);
     color: #333;
     font-family: "Raleway", sans-serif;
@@ -44,14 +47,3 @@ a:visited {
     color: rgba(250, 196, 165, 98);
     text-decoration: none;
 }
-
-article {
-    background: url(img/wave.png) no-repeat left top;
-    border-top: 1mm solid rgba(250, 196, 165, 98);
-    border-bottom: 1mm solid rgba(250, 196, 165, 98);
-}
-/*
-a:default{
-    color: rgba(186, 169, 159, 73)
-}
-*/
