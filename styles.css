@@ -1,6 +1,5 @@
 /* general index page styling */
 body {
-    background-image: url("img/wave.png") no-repeat left top;
     background-color: rgba(189, 255, 255, 100);
     border-top: 2mm dotted rgba(28, 173, 173, 68);
     border-bottom: 2mm dotted rgba(28, 173, 173, 68);
@@ -9,6 +8,17 @@ body {
     padding: 1em;
     margin: 0;
   }
+
+header {
+    width: 210mm;
+    height: 100mm;
+    margin: 20px auto;
+    position: relative;
+}
+
+header {
+    background-image: url("img/wave.png") no-repeat left top;
+}
 
 /* h1 styling */
 h1 {
