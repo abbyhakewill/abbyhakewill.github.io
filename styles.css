@@ -44,6 +44,11 @@ a:hover {
     color: white;
 }
 a:visited {
-    color: rgba(250, 196, 165, 98);
+    color: rgba(255, 139, 71, 100);
     text-decoration: none;
+}
+a:link {
+    padding: 2em;
+    border: solid rgba(255, 139, 71, 100);
+    background-color: rgba(250, 196, 165, 98);
 }
