@@ -65,7 +65,7 @@ a:visited {
 }
 
 .logo {
-    height: 30px;
+    height: 60px;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -87,6 +87,7 @@ a:visited {
     color: white;
     text-decoration: none;
     font-family: "DM Sans", sans-serif;
+    font-size: 17px;
     font-weight: bold;
     padding: .5em 1em;
 }
