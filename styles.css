@@ -15,10 +15,6 @@ header {
     position: relative;
 }
 
-header {
-    background-image: url("img/wave.png") no-repeat left top;
-}
-
 /* h1 styling */
 h1 {
     color: rgba(28, 173, 173, 68);
@@ -58,6 +54,57 @@ a:visited {
     text-decoration: none;
 }
 
+/* responsive navbar styling */
+.navbar {
+    background-color: rgba(28, 173, 173, 68);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.logo {
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.navList {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navList .listItem {
+    display: block;
+    padding: 20px 10px;
+    border-top: 1px solid white
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    padding: .5em 1em;
+}
+
+.navbar a:hover {
+    color: rgba(189, 255, 255, 100);
+}
+
+@media screens and (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        float: none;
+        display: block;
+
+    }
+}
+
+/* nav bar styling
 nav {
     background-color: rgba(28, 173, 173, 68);
     padding: .5em;
@@ -76,9 +123,11 @@ nav {
   }
   
   nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     font-family: "DM Sans", sans-serif;
+    font-weight: bold;
     padding: .5em 1em;
-  }
+  } 
+  */
 
