@@ -1,9 +1,7 @@
 /* general index page styling */
 body {
-    background-color: rgba(189, 255, 255, 100);
     color: #333;
     font-family: "Raleway", sans-serif;
-    padding: 1em;
     margin: 0;
   }
 
@@ -161,5 +159,7 @@ nav {
 
     }
 }
+
+background-color: rgba(189, 255, 255, 100);
   */
 
