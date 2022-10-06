@@ -1,28 +1,10 @@
 /* general index page styling */
 body {
     background-color: rgba(189, 255, 255, 100);
-    border-bottom: 2mm dotted rgba(28, 173, 173, 68);
     color: #333;
     font-family: "Raleway", sans-serif;
     padding: 1em;
     margin: 0;
-  }
-
-  body, html {
-    height: 100%;
-  }
-  
-  .bg { 
-    /* The image used */
-    background-image: url("img/Underwater.jpg");
-  
-    /* Full height */
-    height: 100%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
 header {
