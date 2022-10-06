@@ -75,7 +75,7 @@ a:visited {
 }
 
 .logo {
-    width: 70px;
+    size:400%;
     cursor: pointer;
     margin: 15px 0;
 }
