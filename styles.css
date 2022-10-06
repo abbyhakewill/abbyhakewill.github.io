@@ -7,6 +7,7 @@ body {
     padding: 1em;
     margin: 0;
   }
+
   body, html {
     height: 100%;
   }
@@ -66,7 +67,7 @@ a:hover {
     text-decoration: none;
 }
 a:visited {
-    color: rgba(255, 139, 71, 100);
+    color: lightskyblue;
     text-decoration: none;
 }
 
