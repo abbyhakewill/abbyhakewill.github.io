@@ -5,6 +5,11 @@ body {
     margin: 0;
   }
 
+.backgroundImage {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     width: 210mm;
     height: 100mm;
