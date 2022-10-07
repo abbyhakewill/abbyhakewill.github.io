@@ -105,7 +105,7 @@ nav ul li a:hover {
 */
 
 nav {
-    background-color: #000;
+    background-color: rgba(28, 173, 173, 68);
     padding: .5em;
     top: 0;
     position: sticky;
@@ -115,7 +115,7 @@ nav {
     margin: 0;
     padding: 0;
     list-style: none;
-    Display: flex;
+    display: flex;
     justify-content: space-evenly;
   }
   
@@ -124,7 +124,11 @@ nav {
     text-decoration: none;
     padding: .5em 1em;
   }
-  
+
+  nav ul li a:hover {
+    color: rgba(19, 81, 97, 38);
+  }
+
 
 /* background image grid */
 .bg{
