@@ -91,24 +91,22 @@ a:visited {
     cursor: pointer;
 }
 
-nav {
-    flex: 1;
-    text-align: right;
-}
-
-.nav ul li {
+nav ul li {
     list-style: none;
-    display: inline-block;
-    margin-right: 30px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
 }
 
-.nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    padding: .5em 1em;
 }
 
-.nav ul li a:hover {
+nav ul li a:hover {
     color: rgba(19, 81, 97, 38);
 }
 
