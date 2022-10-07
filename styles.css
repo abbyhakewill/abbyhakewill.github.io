@@ -30,16 +30,11 @@ h2 {
     font-family: "DM Sans", sans-serif;
 }
 
-/* paragraph styling*/
+/* paragraph styling */
 p {
     padding: 2em;
     border: solid rgba(255, 139, 71, 100);
     background-color: rgba(250, 196, 165, 98);
-}
-
-/* profile img styling */
-img {
-  border-radius: 8px;
 }
 
 /* link styling */
@@ -61,11 +56,23 @@ a:visited {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 8em;
+    font-size: 8.5em;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
+.centeredSmall {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
     text-align: center;
