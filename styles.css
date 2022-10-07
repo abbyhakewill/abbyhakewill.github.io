@@ -82,6 +82,7 @@ a:visited {
 nav {
     background-color: rgba(28, 173, 173, 68);
     color: white;
+    font-weight: bold;
     padding: 1.5em;
     top: 0;
     position: sticky;
@@ -90,6 +91,8 @@ nav {
   nav ul {
     margin: 0;
     padding: 0;
+    color: white;
+    font-weight: bold;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -147,7 +150,18 @@ nav {
   }
 
 /* contact me page styling */
+.column {
+  float: left;
+  width: 50%;
 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
   /* Iphone ADD HAMBURGER AND DROPDOWN MENU
