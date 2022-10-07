@@ -107,6 +107,7 @@ nav ul li a:hover {
 
 nav {
     background-color: rgba(28, 173, 173, 68);
+    width: 100vh;
     padding: 1.5em;
     top: 0;
     position: sticky;
@@ -131,11 +132,6 @@ nav {
   nav ul li a:hover {
     color: rgba(19, 81, 97, 38);
   }
-
-  nav ul li a:visited {
-    color: lightskyblue;
-    text-decoration: none;
-}
 
 .logo {
     position: center;
