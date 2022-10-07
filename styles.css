@@ -71,58 +71,7 @@ a:visited {
     text-align: center;
 }
 
-/* responsive navbar styling
-.container {
-    width: 100vh;
-    min-height: 100px;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing:border-box;
-    overflow: hidden;
-    position: sticky;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    top: 0;
-    background-color: rgba(28, 173, 173, 68);
-    color: white;
-    font-size: 20px;
-}
-
-.logo {
-    width: 100px;
-    cursor: pointer;
-    margin: 5px 0;
-}
-
-.menu {
-    width: 10px;
-    cursor: pointer;
-}
-
-nav ul li {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: .5em 1em;
-}
-
-nav ul li a:hover {
-    color: rgba(19, 81, 97, 38);
-}
-*/
-
+/* nav bar styling */
 nav {
     background-color: rgba(28, 173, 173, 68);
     padding: 1.5em;
@@ -192,65 +141,6 @@ nav {
 /* contact me page styling */
 
 
-/* nav bar styling
-nav {
-    background-color: rgba(28, 173, 173, 68);
-    padding: .5em;
-    top: 0;
-    position: sticky;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-family: "DM Sans", sans-serif;
-    font-weight: bold;
-    padding: .5em 1em;
-  } 
-
-  .navList {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.navbar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    font-family: "DM Sans", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    padding: .5em 1em;
-}
-
-.navbar a:hover {
-    background-color: rgba(189, 255, 255, 100);
-}
-
-@media screens and (max-width: 500px) {
-    .navbar {
-        flex-direction: column;
-        float: none;
-        display: block;
-
-    }
-}
-
-background-color: rgba(189, 255, 255, 100);
-  */
-
 
   /* Iphone ADD HAMBURGER AND DROPDOWN MENU
 @media only screen and (max-width: 450px) {
@@ -263,22 +153,4 @@ background-color: rgba(189, 255, 255, 100);
         body {
           font-family: helvetica;
         } */
-
-        
-       
-         #item-1 {
-       
-            grid-row: 2 / 3;
-            grid-column: 1 / 2;
-            text-align: center;
-            padding right: 100px;
-       
-         }
-         #item-0 {
-       
-            grid-row: 1 / 2;
-            grid-column: 1 / 4;
-         height: 700px;
-            background: url('smallPic.jpg');
-            background-size: cover;
        
