@@ -53,6 +53,24 @@ a:visited {
     text-decoration: none;
 }
 
+.myHome {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+}
+
 /* responsive navbar styling
 .container {
     width: 100vh;
@@ -245,3 +263,22 @@ background-color: rgba(189, 255, 255, 100);
         body {
           font-family: helvetica;
         } */
+
+        
+       
+         #item-1 {
+       
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            text-align: center;
+            padding right: 100px;
+       
+         }
+         #item-0 {
+       
+            grid-row: 1 / 2;
+            grid-column: 1 / 4;
+         height: 700px;
+            background: url('smallPic.jpg');
+            background-size: cover;
+       
