@@ -129,7 +129,11 @@ nav {
   nav ul li a:hover {
     color: rgba(19, 81, 97, 38);
   }
+/* about me page styling */
 
+/* resume page styling */
+
+/* my work page styling */
 
 /* background image grid */
 .bg{
@@ -160,7 +164,7 @@ nav {
     grid-column: 1 / 4;
   }
 
-
+/* contact me page styling */
 
 
 /* nav bar styling
