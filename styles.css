@@ -120,7 +120,7 @@ nav {
     justify-content: space-evenly;
   }
   
-  nav a {
+  nav ul li a {
     color: white;
     text-decoration: none;
     padding: .5em 1.5em;
@@ -129,6 +129,11 @@ nav {
   nav ul li a:hover {
     color: rgba(19, 81, 97, 38);
   }
+
+  nav ul li a:visited {
+    color: lightskyblue;
+    text-decoration: none;
+}
 /* about me page styling */
 
 /* resume page styling */
