@@ -115,8 +115,16 @@ nav {
     margin: auto;
 }
 /* ABOUT ME PAGE STYLING */
-
-/* resume page styling 
+.gridAbout {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+  }
+  
+/* RESUME PAGE STYLING 
 background-color: rgba(107, 212, 219, 86);*/
 /* my work page styling */
 
