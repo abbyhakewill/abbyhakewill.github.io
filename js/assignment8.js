@@ -7,7 +7,7 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-var storyText = 'It was 65 degrees fahrenheit on a crisp, sunny fall day, and :insertx: was out for a stroll with his good pal Jimmy when it began to rain torrentially out of nowhere. They hectically ran into the nearest building to get out of the rain, which turned out to be :inserty:. They breathlessly looked around at the people staring at them, then proceeded to casually :insertz:. Jimmy was impressed, but was not surprised — :insertx: has 1,000,000 pounds of pure hype coursing through his veins, and the chill rainy day vibes amplify his powers.'
+var storyText = 'It was 65 degrees fahrenheit on a crisp, sunny fall day, and :insertx: was out for a stroll with his good pal Jimmy when it began to rain torrentially out of nowhere. They hectically ran into the nearest building to get out of the rain, which turned out to be :inserty:. They breathlessly looked around at the people staring at them, then proceeded to casually :insertz:. Jimmy was impressed, but was not surprised — :insertx: has 1,000,000 pounds of pure hype coursing through his veins, and the chill rainy day vibes amplify his superpowers.'
 
 var insertX = ['GRiZ', 'Rick Sanchez', 'Snoop Dogg']
 
