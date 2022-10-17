@@ -166,7 +166,10 @@ nav {
 /* ABOUT ME PAGE STYLING */
 .aboutMeimg {
   border: 8px solid orange;
-  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* RESUME PAGE STYLING */
