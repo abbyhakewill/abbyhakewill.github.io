@@ -169,17 +169,7 @@ nav {
   align-content: center;
 }
 
-.gridAbout {
-    margin: 0 auto;
-    padding: 0 20px;
-    max-width: 980px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px;
-  }
-
-/* RESUME PAGE STYLING 
-background-color: rgba(107, 212, 219, 86);*/
+/* RESUME PAGE STYLING */
 
 .resume-contents {
   min-height: 100vh;
@@ -212,7 +202,7 @@ background-color: rgba(107, 212, 219, 86);*/
 
 .profile .profileImage {
   width: 50%;
-  height:60%;
+  height: 60%;
   border-radius: 50%;
   border: 8px solid white;
 }
@@ -283,26 +273,8 @@ background-color: rgba(107, 212, 219, 86);*/
   text-transform: uppercase;
 }
 
-.referance-name {
-  padding-top: 1.5rem;
-  padding-bottom: .4rem;
-  font-size: 18px;
-  color: #F9E79F;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-
-.referance-profession {
-  font-size: 16px;
-  color: #d6dbdfaf;
-  letter-spacing: 1px;
-  /* text-transform: uppercase; */
-  padding-bottom: .4rem;
-}
-
-
 .right-section-contents {
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
 }
 
 .right-title {
