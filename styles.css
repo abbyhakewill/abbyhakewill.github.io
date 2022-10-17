@@ -149,7 +149,7 @@ nav {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #A69F98}
+.dropdown-content a:hover {background-color: darkblue}
 
 
 .dropdown:hover .dropdown-content {
@@ -158,19 +158,18 @@ nav {
 
 
 .dropdown:hover .dropbtn {
-  background-color: #A69F98;
+  background-color: darkblue;
 
    }
 
 
 /* ABOUT ME PAGE STYLING */
 .aboutMeimg {
-  border: solid orange;
+  border: 8px solid orange;
   align-content: center;
 }
 
 /* RESUME PAGE STYLING */
-
 .resume-contents {
   min-height: 100vh;
   width: 80%;
