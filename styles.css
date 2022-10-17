@@ -495,7 +495,6 @@ nav {
 .leftContact, .rightContact {
   height: 50%;
   width: 50%;
-  position: fixed;
   padding-top: 20px;
 }
 .leftContact {
