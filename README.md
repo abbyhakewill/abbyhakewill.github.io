@@ -1,4 +1,4 @@
 # abbyhakewill.github.io
 
 
-# this will eventually be my own personal website
+# Hi there, welcome to my website repo
