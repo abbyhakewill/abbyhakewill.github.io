@@ -27,7 +27,7 @@ h1 {
   button {
     border: 0;
     background: rgba(28, 173, 173, 68);
-    text-shadow: 1px 1px 1px darkblue;
+    text-shadow: 1px 1px 1px whitesmoke;
     border: 1px solid lightcyan;
     position: absolute;
     cursor: pointer;
