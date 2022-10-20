@@ -22,7 +22,7 @@ const imageNames = ['RileyHusky.png', 'Aspens.jpg', 'MuirWoods.jpg', 'PointReyes
 
   for (const img of imageNames) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', `img/assignment9/${image}`);
+    newImage.setAttribute('src', `../img/assignment9/${image}`);
     newImage.setAttribute('alt', alts[image]);
     thumbBar.appendChild(newImage);
     newImage.addEventListener('click', e => {
