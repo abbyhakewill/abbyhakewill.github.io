@@ -11,7 +11,7 @@ html {
   }
   
   body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: rgba(28, 173, 173, 68);;
   }
   
@@ -73,12 +73,12 @@ html {
   }
   
   .new-quote {
-    background-color: #4A2B0F;
+    background-color: rgba(0, 191, 204, 80);
     margin-bottom: 15px;
   }
   
   .new-quote:hover {
-    background-color: #6d3b0e;
+    background-color: rgba(0, 214, 230, 90);
   }
   
   .new-quote:disabled {
