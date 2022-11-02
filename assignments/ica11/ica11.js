@@ -22,6 +22,4 @@ async function getQuote() {
       alert('Failed to get quote');
     }
   }
-
-
   getQuote();
