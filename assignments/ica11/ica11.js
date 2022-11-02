@@ -1,13 +1,3 @@
-const newQuoteButton = document.querySelector('#js-new-quote');
-  newQuoteButton.addEventListener('click', getQuote);
-
-function displayQuote(quote) {
-    const quoteText = document.querySelector('#js-quote-text');
-    quoteText.textContent = quote;
-  }
-
-const endpoint = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
-
 async function getQuote() {
     try {
       const response = await fetch(endpoint)
@@ -22,4 +12,15 @@ async function getQuote() {
       alert('Failed to get quote');
     }
   }
-  getQuote();
+
+const endpoint = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
+
+const newQuoteButton = document.querySelector('#js-new-quote');
+  newQuoteButton.addEventListener('click', getQuote);
+
+function displayQuote(quote) {
+    const quoteText = document.querySelector('#js-quote-text');
+    quoteText.textContent = quote;
+  }
+
+ getQuote();
