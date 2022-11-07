@@ -13,7 +13,7 @@ async function getQuote() {
     }
   }
 
-const endpoint = "https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?";
+const endpoint = "https://free-quotes-api.herokuapp.com";
 
 const newQuoteButton = document.querySelector('#js-new-quote');
   newQuoteButton.addEventListener('click', getQuote);
