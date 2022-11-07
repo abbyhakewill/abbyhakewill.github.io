@@ -25,6 +25,8 @@ function displayQuote(quote) {
 
 getQuote();
 
+
+
 /*function tweetQuote(quote) {
     twitterBtn.addEventListener('click', tweetQuote);
     twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote}`);
