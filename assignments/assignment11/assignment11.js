@@ -23,9 +23,9 @@ function displayQuote(quote) {
     quoteText.textContent = quote;
   }
 
-function tweetQuote(quote) {
+/*function tweetQuote(quote) {
     twitterBtn.addEventListener('click', tweetQuote);
     twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote}`);
     window.open(twitterUrl, "_blank");
-  }
+  }*/
  getQuote();
