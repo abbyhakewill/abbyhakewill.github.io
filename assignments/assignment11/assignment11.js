@@ -22,26 +22,6 @@ function displayQuote(quote) {
     const quoteText = document.querySelector('#js-quote-text');
     quoteText.textContent = quote;
   }
-  getQuote();
-
-/* twitter button api
-credit to https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites for twitter api code*/
-window.twttr = (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-      t = window.twttr || {};
-    if (d.getElementById(id)) return t;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
-  
-    t._e = [];
-    t.ready = function(f) {
-      t._e.push(f);
-    };
-  
-    return t;
-  }(document, "script", "twitter-wjs"));
 
 getQuote();
 
