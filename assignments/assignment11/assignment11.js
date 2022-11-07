@@ -13,7 +13,7 @@ async function getQuote() {
     }
   }
 
-const endpoint = "https://api.whatdoestrumpthink.com/api/v1/quotes/random";
+const endpoint = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
 
 const newQuoteButton = document.querySelector('#js-new-quote');
   newQuoteButton.addEventListener('click', getQuote);
@@ -26,5 +26,4 @@ function displayQuote(quote) {
 function tweetButton(quote) {
     twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote}`);
   }
-
  getQuote();
