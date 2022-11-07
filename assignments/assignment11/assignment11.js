@@ -13,7 +13,7 @@ async function getQuote() {
     }
   }
 
-const endpoint = "https://free-quotes-api.herokuapp.com";
+const endpoint = "https://zenquotes.io/api/quotes/";
 
 const newQuoteButton = document.querySelector('#js-new-quote');
   newQuoteButton.addEventListener('click', getQuote);
@@ -23,7 +23,9 @@ function displayQuote(quote) {
     quoteText.textContent = quote;
   }
 
-function tweetButton(quote) {
+function tweetQuote(quote) {
+    twitterBtn.addEventListener('click', tweetQuote);
     twitterButton.setAttribute('href', `https://twitter.com/share?text=${quote}`);
+    window.open(twitterUrl, "_blank");
   }
  getQuote();
