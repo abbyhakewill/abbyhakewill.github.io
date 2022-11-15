@@ -8,7 +8,7 @@ body {
 
   /* h1 styling */
 h1 {
-    color: greenyellow;
+    color: orange;
     font-size: 3em;
     font-weight: bold;
     font-family: "Papyrus",fantasy;
@@ -18,7 +18,7 @@ h1 {
 /* container styling */
 #container {
     margin: 10px; 
-    border: 8px solid greenyellow; 
+    border: 8px solid orange; 
     background-color: blue; 
     color: turquoise; 
     font-weight: bold; 
