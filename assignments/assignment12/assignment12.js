@@ -5,8 +5,8 @@ var current = 5555555555;
 
 $(document).ready(function() {
   
-  $('#lower').click(less);
-  $('#higher').click(more);
+  $('#less').click(less);
+  $('#more').click(more);
   
   $('#submit').click(submit);
   
