@@ -1,0 +1,35 @@
+/* body styling */
+body {
+    color: turquoise;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* h1 styling */
+h1 {
+    color: orange;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+/* container styling */
+#container {
+    margin: 10px; 
+    border: 8px solid greenyellow; 
+    background-color: blue; 
+    color: turquoise; 
+    font-weight: bold; 
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 10px; 
+    display: inline-block; 
+    font-size: 16pt; 
+}
+
+/* button styling */
+button {
+    font-size: 15pt; 
+    font-family: "Times New Roman", Times, serif;
+  }
