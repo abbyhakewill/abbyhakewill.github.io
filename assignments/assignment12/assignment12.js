@@ -5,8 +5,8 @@ var current = 5555555555;
 
 $(document).ready(function() {
   
-  $('#lower').click(lower);
-  $('#higher').click(higher);
+  $('#lower').click(less);
+  $('#higher').click(more);
   
   $('#submit').click(submit);
   
@@ -33,12 +33,12 @@ function updateDisplay() {
   $("#phone-number").html(numberToString(current)); 
 }
 
-function lower() {
+function less() {
   upper = current - 1; 
   updateDisplay(); 
 }
 
-function higher() {
+function more() {
   lower = current + 1; 
   updateDisplay(); 
 }
