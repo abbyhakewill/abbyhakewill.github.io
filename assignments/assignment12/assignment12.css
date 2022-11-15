@@ -8,10 +8,10 @@ body {
 
   /* h1 styling */
 h1 {
-    color: orange;
+    color: greenyellow;
     font-size: 3em;
     font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Papyrus",fantasy;
     text-align: center;
   }
 
@@ -22,7 +22,7 @@ h1 {
     background-color: blue; 
     color: turquoise; 
     font-weight: bold; 
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Comic Sans MS";
     padding-bottom: 10px; 
     display: inline-block; 
     font-size: 16pt; 
