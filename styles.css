@@ -172,6 +172,14 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: white;
+  color: rgba(19, 81, 97, 38);
+}
+
 .profile-img {
   display: block;
   margin-left: auto;
@@ -190,13 +198,6 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(19, 81, 97, 38);
   margin: 8px;
-}
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: white;
-  color: rgba(19, 81, 97, 38);
 }
 
 .container {
