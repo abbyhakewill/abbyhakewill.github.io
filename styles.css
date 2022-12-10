@@ -549,6 +549,7 @@ html {
 input[type=text], select, textarea {
   background-color: #89D5D2;
   color: rgba(19, 81, 97, 38);
+  font-family: "Raleway", sans-serif;
   width: 100%;
   padding: 12px;
   border: 3px solid rgba(19, 81, 97, 38);
@@ -560,6 +561,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color:rgba(19, 81, 97, 38);
   color: white;
+  font-family: "Raleway", sans-serif;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
@@ -598,16 +600,4 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
-
-  /* Iphone
-@media only screen and (max-width: 450px) {
-    body {
-      margin: 0px;
-      a:visited {
-    }
-/* Desktop 
-    @media screen and (min-width: 450px) {
-        body {
-          font-family: helvetica;
-        } */
        
