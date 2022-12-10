@@ -570,6 +570,11 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+::placeholder { 
+  color: rgba(19, 81, 97, 38);
+  opacity: 1;
+}
+
 input[type=submit] {
   background-color:rgba(19, 81, 97, 38);
   color: white;
