@@ -185,7 +185,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(7, 102, 136, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(19, 81, 97, 38);
   margin: 8px;
 }
 
@@ -570,7 +570,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: teal;
+  background-color: white;
   padding: 10px;
 }
 
