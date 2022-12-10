@@ -541,16 +541,17 @@ html {
 
 /* Style inputs */
 input[type=text], select, textarea {
+  background-color: #89D5D2;
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 4px solid rgba(19, 81, 97, 38);
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color:rgba(19, 81, 97, 38);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -558,13 +559,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #89D5D2;
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: teal;
   padding: 10px;
 }
 
