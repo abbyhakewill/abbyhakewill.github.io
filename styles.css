@@ -582,6 +582,13 @@ input[type=submit]:hover {
   background-color: #89D5D2;
 }
 
+.linkedIn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
