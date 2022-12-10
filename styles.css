@@ -180,15 +180,15 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(63, 158, 193, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(7, 102, 136, 0.2);
   margin: 8px;
 }
 
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: rgba(19, 81, 97, 38);
-  color: white;
+  background-color: white;
+  color: rgba(19, 81, 97, 38);
 }
 
 .container {
@@ -202,7 +202,7 @@ html {
 }
 
 .title {
-  color: darkblue;
+  color: rgba(19, 81, 97, 38);
 }
 
 @media screen and (max-width: 650px) {
