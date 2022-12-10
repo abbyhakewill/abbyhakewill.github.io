@@ -171,7 +171,12 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 .column {
   float: left;
   width: 33.3%;
