@@ -53,16 +53,32 @@
               </div>
             </div>
 
-<!-- contact me grid html code -->
-<h1>Contact Me</h1>
-  <div class="leftContact">
-  <h1>Contact Me</h1>
-  <p>+123456789
-    abha5846@colorado.edu</p>
+<!-- contact me html code -->
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Me</h2>
+    <p>Let's connect!</p>
   </div>
-  <div class="rightContact">
-  <img class="contactMeimg" src="img/Aspens.JPG" alt="Aspens" style="width:100%;">
+  <div class="row">
+    <div class="column">
+      <img class="contactMeimg" src="img/Aspens.JPG" alt="Aspens" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </div>
+</div>
+
+<!-- Partial code credit to https://www.w3schools.com/howto/howto_css_contact_section.asp -->
 
 </body>
 </html>
