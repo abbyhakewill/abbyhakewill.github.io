@@ -527,6 +527,22 @@ html {
   color: rgba(19, 81, 97, 38);
 }
 
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgba(19, 81, 97, 38);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #89D5D2;
+}
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
