@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
+  
+  </head>
+    <body>
+      
 <!-- dropdown menu code -->
 <div class="dropdown">
     <button class="dropbtn">Learn More</button>
@@ -52,7 +55,11 @@
 
 </head>
 <body>
-    
+  <div class="myHome">
+    <img src="img/Bridge.jpg" alt="GGB" style="width:100%;">
+    <div class="centered">Hello!</div>
+    <div class="centeredSmall">My name is Abby Hakewill, welcome to my portfolio! Feel free to have a look around.</div>
+</div> 
 
 <script src="/js/three.r134.min.js"></script>
 <script src="/js/vanta.waves.min.js"></script>
@@ -70,11 +77,12 @@ VANTA.WAVES({
 })
 </script>
 
-<script src="/js/p5.min.js"></script>
-<script src="/js/vanta.trunk.min.js"></script>
+
+<script src="three.r134.min.js"></script>
+<script src="vanta.birds.min.js"></script>
 <script>
-VANTA.TRUNK({
-  el: "*",
+VANTA.BIRDS({
+  el: "#your-element-selector",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
@@ -82,10 +90,9 @@ VANTA.TRUNK({
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0xaffa,
-  spacing:1.5,
-  chaos: 4
+  backgroundColor: 0x40961
 })
 </script>
+
 </body>
 </html>
