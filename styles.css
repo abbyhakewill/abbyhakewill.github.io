@@ -368,9 +368,12 @@ input[type=submit]:hover {
 
 /* PLAY TIME PAGE STYLING */
 .birds {
-  padding: .5rem;
   width: 100%;
   text-align: center;
   color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:400px
 }
        
