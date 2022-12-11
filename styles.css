@@ -329,9 +329,9 @@ input[type=submit]:hover {
 }
 
 .linkedIn {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
   width: 20%;
   height: 20%;
 }
