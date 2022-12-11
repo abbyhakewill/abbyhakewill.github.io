@@ -223,7 +223,9 @@ html {
 }
 
 /* RESUME PAGE STYLING */
-
+.redwoods {
+  align-items: center;
+}
 
 
 /* MY WORK PAGE STYLING */
@@ -332,6 +334,7 @@ input[type=submit]:hover {
 .linkedIn {
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
   width: 20%;
   height: 20%;
 }
