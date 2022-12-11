@@ -369,6 +369,7 @@ input[type=submit]:hover {
 /* PLAY TIME PAGE STYLING */
 .Birds {
   position: relative;
+  width: 100%;
   text-align: center;
   color: white;
 }
